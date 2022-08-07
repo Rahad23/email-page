@@ -1,0 +1,35 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.margin-top-200px{
+    margin-top: 200px;
+}
+.margin-bttom-100px{
+    margin-bottom: 100px;
+}
+
+/* responsive */
+ 
+@media (max-width: 1400px) { 
+
+   main .img-logo img{
+        width: 300px;
+    }
+
+ }
+
+ @media (max-width: 768px) { 
+
+    main .img-logo img{
+         width: 200px;
+     }
+     .body-text .container{
+        width: 100%!important;
+    }
+ 
+  }
+  @media (max-width: 576px) { 
+        .body-text .container{
+            width: 100%!important;
+        }
+   }
